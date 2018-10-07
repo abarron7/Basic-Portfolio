@@ -1,0 +1,52 @@
+body {
+    background-image: url("assets/images/what-the-hex-dark.png");
+}
+
+header {
+
+    border-bottom: 2px;
+    margin-bottom: 40px;
+    background-color: white;
+    width: 100%;
+    border-bottom-color: #cccccc;
+}
+
+h1 {
+    display: inline;
+    background-color: cadetblue;
+    color: white;
+    float: left;
+}
+
+h3 {
+    display: inline;
+    float: right;
+}
+
+#me {
+    float: left;
+    width: 300px;
+    height: 400px;
+    word-wrap: normal
+}
+
+#Main {
+    clear: both;
+    height: 550px;
+    width: 980px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #dddddd;
+    padding: 10px;
+    background-color: #ffffff;
+
+}
+
+#links {
+    margin: auto;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt
+}
