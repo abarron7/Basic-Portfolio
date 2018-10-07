@@ -2,7 +2,7 @@ header {
     top: 0;
     overflow: hidden;
     background-color: #ffffff;
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
     margin: 0px;
     margin-bottom: 20px;
     height: 60px;
@@ -10,15 +10,18 @@ header {
     margin-left: -8px;
     margin-right: -8px;
 }
+
 /*couldn't figure out how to make header fixed and collapse with page*/
+
 h1 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     margin: auto;
     background-color: cadetblue;
-    height: 100%;
+    height: 55px;
     color: white;
     float: left;
-    font-size: 30pt
+    font-size: 30pt;
+    width: 365px
 }
 
 a,
@@ -105,4 +108,65 @@ footer {
     margin: auto;
     width: 735px;
     padding-top: 10px
+}
+
+#inputs {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#Projects {
+    float: left;
+    margin: auto;
+}
+
+#imgtxt {
+    position: relative;
+    background: #4aaaa5;
+    width: 200px;
+    bottom: 45px;
+    height: 25px;
+    padding-top: 10px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+#Main2 {
+    clear: both;
+    height: 520px;
+    width: 980px;
+    margin: auto;
+    width: 50%;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center
 }
