@@ -1,52 +1,108 @@
-body {
-    background-image: url("assets/images/what-the-hex-dark.png");
-}
-
 header {
-
-    border-bottom: 2px;
-    margin-bottom: 40px;
-    background-color: white;
-    width: 100%;
-    border-bottom-color: #cccccc;
+    top: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    margin: 0px;
+    margin-bottom: 20px;
+    height: 60px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
-
+/*couldn't figure out how to make header fixed and collapse with page*/
 h1 {
-    display: inline;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin: auto;
     background-color: cadetblue;
+    height: 100%;
     color: white;
     float: left;
+    font-size: 30pt
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 h3 {
-    display: inline;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin: auto;
     float: right;
+    padding-top: 15px;
+    font-size: 16pt
+}
+
+#index:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+#portfolio:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+#contact:hover {
+    background-color: cadetblue;
+    color: white;
 }
 
 #me {
     float: left;
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     word-wrap: normal
 }
 
 #Main {
     clear: both;
-    height: 550px;
+    height: 450px;
     width: 980px;
     margin: auto;
     width: 50%;
-    border: 3px solid #dddddd;
+    border: 1px solid #dddddd;
     padding: 10px;
     background-color: #ffffff;
-
-}
-
-#links {
-    margin: auto;
+    text-align: center
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12pt
+    font-family: Arial, 'Helvetica neue', sans-serif;
+    font-size: 16pt;
+    margin: bottom
+}
+
+h2 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    float: top;
+    float: left margin-top: auto;
+    color: #4aaaa5
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    background-color: #666666;
+    height: 40px;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+}
+
+#head {
+    margin: auto;
+    width: 735px;
+    padding-top: 10px
 }
